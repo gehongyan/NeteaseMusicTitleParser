@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeteaseMusicTitleParser", "NeteaseMusicTitleParser\NeteaseMusicTitleParser.csproj", "{38708DC6-7708-4F35-98D9-D45256061D09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38708DC6-7708-4F35-98D9-D45256061D09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38708DC6-7708-4F35-98D9-D45256061D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38708DC6-7708-4F35-98D9-D45256061D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38708DC6-7708-4F35-98D9-D45256061D09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C18CDB8-96BB-47DD-B948-9EBE3348C329}
+	EndGlobalSection
+EndGlobal
