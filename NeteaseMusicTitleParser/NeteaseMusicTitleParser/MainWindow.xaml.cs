@@ -111,12 +111,25 @@ namespace NeteaseMusicTitleParser
                 try
                 {
                     SendText(stringMusicTitle);
+                    WriteTextFile(stringMusicTitle);
                 }
                 catch (Exception ex)
                 {
                     TextBlock_MusicTitle.Text += "\n";
                     TextBlock_MusicTitle.Text += ex.Message;
                 }
+
+            }
+        }
+
+        private void WriteTextFile(string stringMusicTitle)
+        {
+            try
+            {
+                System.IO.File.WriteAllText(@".\NeteaseMusicTitle.txt", stringMusicTitle);
+            }
+            catch (Exception)
+            {
 
             }
         }
