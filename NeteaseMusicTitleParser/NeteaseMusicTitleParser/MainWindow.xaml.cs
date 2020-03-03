@@ -126,7 +126,7 @@ namespace NeteaseMusicTitleParser
         {
             try
             {
-                System.IO.File.WriteAllText(@".\NeteaseMusicTitle.txt", stringMusicTitle);
+                System.IO.File.WriteAllText(@".\NeteaseMusicTitle.txt", "正在播放：" + stringMusicTitle);
             }
             catch (Exception)
             {
